@@ -1,0 +1,17 @@
+{
+  "name": "@lz-ui/components",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "vite build"
+  },
+  "keywords": [],
+  "author": "",
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.3.4",
+    "vite": "^4.4.9"
+  },
+  "license": "ISC"
+}
