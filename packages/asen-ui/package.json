@@ -18,6 +18,12 @@
   "author": "阿森",
   "license": "MIT",
   "description": "",
-  "typings": "lib/index.d.ts"
+  "typings": "lib/index.d.ts",
+  "scripts": {
+    "release": "release-it"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/z-h-a-n-g/dome-ui.git"
+  }
 }
-
