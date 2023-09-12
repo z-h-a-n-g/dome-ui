@@ -13,5 +13,8 @@
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.3.4",
     "vite": "^4.4.9"
+  },
+  "dependencies": {
+    "asen-ui-vue3": "workspace:^"
   }
 }

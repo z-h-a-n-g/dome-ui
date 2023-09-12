@@ -6,7 +6,7 @@ titleTemplate: 选项卡描述
 editLink: true
 lastUpdated: true
 hero:
-  name: asen-ui
+  name: Asen-ui
   tagline: asen-ui，一套为了更快的版本迭代而开发的业务组件库
   actions:
     - theme: brand

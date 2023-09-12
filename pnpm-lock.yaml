@@ -75,6 +75,10 @@ importers:
         version: registry.npmmirror.com/vite@4.4.9(@types/node@20.6.0)(less@4.2.0)
 
   play:
+    dependencies:
+      asen-ui-vue3:
+        specifier: workspace:^
+        version: link:../packages/asen-ui
     devDependencies:
       '@vitejs/plugin-vue':
         specifier: ^4.3.4
