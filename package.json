@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "cd ./play && npm run dev",
+    "dev:docs": "cd ./site && npm run docs:dev",
+    "build:docs": "cd ./site && npm run docs:build",
     "build:ui": "gulp -f packages/components/script/build/index.ts",
     "publish:ui": "gulp -f packages/components/script/publish/index.ts"
   },

@@ -2,7 +2,7 @@
 
 export default {
   title: "Asen-ui",
-  description: "程序员阿森的一次自己搭建组件库的初体验",
+  description: "一款基于vue3+TS的UI组件库",
   base: process.env.NODE_ENV === 'production' ? '/asen-ui/' : '/',
   themeConfig: {
     siteTitle: "Asen-ui",
@@ -27,7 +27,7 @@ export default {
               link: "/guide/quickstart",
             },
           ],
-        }      
+        }
       ],
       "/components/": [
         {
