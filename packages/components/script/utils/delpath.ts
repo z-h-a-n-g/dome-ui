@@ -25,7 +25,7 @@ const delPath = async (path: string) => {
       }
     });
 
-    if (path != `${pkgPath}/easyest`) fs.rmdirSync(path);
+    if (path != `${pkgPath}/asen-ui`) fs.rmdirSync(path);
   }
 };
 export default delPath;
