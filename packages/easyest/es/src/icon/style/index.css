@@ -1,4 +1,4 @@
-.lz-button {
+.lz-icon {
   display: inline-block;
   line-height: 1;
   white-space: nowrap;
@@ -6,7 +6,8 @@
   background: #fff;
   border: 1px solid #dcdfe6;
   color: #606266;
-  appearance: none;
+  -moz-appearance: none;
+       appearance: none;
   -webkit-appearance: none;
   text-align: center;
   box-sizing: border-box;
@@ -18,12 +19,12 @@
   font-size: 14px;
   border-radius: 4px;
 }
-.lz-button.lz-button--primary {
+.lz-icon.lz-icon--primary {
   color: #fff;
   background-color: #409eff;
   border-color: #409eff;
 }
-.lz-button.lz-button--primary:hover {
+.lz-icon.lz-icon--primary:hover {
   background: #66b1ff;
   border-color: #66b1ff;
   color: #fff;
