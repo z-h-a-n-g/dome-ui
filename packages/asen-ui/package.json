@@ -1,5 +1,5 @@
 {
-  "name": "asen-ui",
+  "name": "asen-ui-vue3",
   "version": "1.0.0",
   "main": "lib/index.js",
   "module": "es/index.mjs",
@@ -8,7 +8,8 @@
     "lib"
   ],
   "keywords": [
-    "asen-ui",
+    "asen",
+    "ui",
     "vue3组件库"
   ],
   "sideEffects": [
