@@ -7,7 +7,7 @@ export default defineConfig({
     outDir: 'lz-ui', //打包文件目录
     //minify: false,//压缩
     rollupOptions: {
-      external: ['vue'], //忽略打包vue文件
+      external: ['vue', /.\less/], //忽略打包vue文件
       input: ['index.ts'],
       output: [
         {

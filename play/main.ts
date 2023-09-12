@@ -1,6 +1,6 @@
 import { createApp } from "vue";
 import App from "./app.vue";
-import easyest from "@lz-ui/components";
+import Asenui from "@lz-ui/components";
 const app = createApp(App);
-app.use(easyest);
+app.use(Asenui);
 app.mount("#app");
